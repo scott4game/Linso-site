@@ -1,6 +1,8 @@
 # Linsora website
 
-Public site: https://scott4game.github.io/Linso-site/
+Public site: https://linsora.icqnft.com/
+
+GitHub Pages project URL: https://scott4game.github.io/Linso-site/ (redirects to the configured custom domain).
 
 English, Simplified Chinese and Japanese home, privacy and support pages. Published files are exclusively in `site/`; App source, model files, review materials, keys and private recordings must never be copied here.
 
@@ -8,7 +10,7 @@ English, Simplified Chinese and Japanese home, privacy and support pages. Publis
 
 Repository Settings → Pages → Build and deployment → Source: **GitHub Actions**. Pushes to `main` deploy through `.github/workflows/pages.yml`. The workflow publishes only `site/`.
 
-The source uses relative links and works under `/Linso-site/`; no custom domain or DNS change is configured. Existing App Store/App links using `linsora.icqnft.com` are not changed by this deployment.
+The source uses relative links and works under `/Linso-site/`; the user configured the custom domain linsora.icqnft.com. The workflow does not change DNS. Existing App Store/App links using `linsora.icqnft.com` are not changed by this deployment.
 
 Local preview: `python3 -m http.server 8769 --directory site`. Check all three languages, privacy/support navigation, CSS and mobile overflow before pushing.
 
